@@ -1,8 +1,8 @@
 <div class="card shadow mb-4">
 	<div class="card-header py-3">
 		<h4 class="" style="margin-top: 10px">
-			<strong>QUẢN LÝ NHÂN VIÊN</strong>&ensp;
-			<i class="fas fa-users"></i>
+			<strong>QUẢN LÝ NGUYÊN LIỆU</strong>&ensp;
+			<i class="fas fa-cannabis"></i>
 		</h4>            
 	</div>
 
@@ -12,24 +12,18 @@
 				<thead>
 					<tr>
 						<th scope="col">ID</th>
-						<th scope="col">Tên</th>
-						<th scope="col">Chức vụ</th>
-						<th scope="col">Giới tính</th>
-						<th scope="col">Địa chỉ</th>
-						<th scope="col">SĐT</th>
-						<th scope="col">Tài khoản</th>
+						<th scope="col">Tên nguyên liệu</th>
+						<th scope="col">Số lượng</th>
+						<!-- <th scope="col">Giá nguyên liệu</th> -->
 						<th scope="col">Thay đổi</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<th scope="row">1</th>
-						<td>Phan Văn Bằng</td>
-						<td>Thu ngân</td>
-						<td>Nam</td>
-						<td>Thừa Thiên Huế</td>
-						<td>0987654321</td>
-						<td>pvbangRM001</td>
+						<td>Rau</td>
+						<td>200</td>
+						<!-- <td>5000 VND</td> -->
 						<td>
 							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
 							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
@@ -39,12 +33,9 @@
 
 					<tr>
 						<th scope="row">2</th>
-						<td>Trần Nguyễn Vĩnh Uy</td>
-						<td>Đầu bếp</td>
-						<td>Nam</td>
-						<td>Thừa Thiên Huế</td>
-						<td>0987654321</td>
-						<td>tnvuyRM002</td>
+						<td>Bơ</td>
+						<td>100</td>
+						<!-- <td>17h - 22h</td> -->
 						<td>
 							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
 							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
@@ -54,12 +45,9 @@
 
 					<tr>
 						<th scope="row">3</th>
-						<td>Phan Văn Bằng</td>
-						<td>Thu ngân</td>
-						<td>Nam</td>
-						<td>Thừa Thiên Huế</td>
-						<td>0987654321</td>
-						<td>pvbangRM001</td>
+						<td>Sữa</td>
+						<td>50</td>
+						<!-- <td>19h - 22h</td> -->
 						<td>
 							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
 							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
@@ -69,12 +57,9 @@
 
 					<tr>
 						<th scope="row">4</th>
-						<td>Trần Nguyễn Vĩnh Uy</td>
-						<td>Đầu bếp</td>
-						<td>Nam</td>
-						<td>Thừa Thiên Huế</td>
-						<td>0987654321</td>
-						<td>tnvuyRM002</td>
+						<td>Cá</td>
+						<td>100</td>
+						<!-- <td>19h - 22h</td> -->
 						<td>
 							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
 							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
@@ -84,18 +69,51 @@
 
 					<tr>
 						<th scope="row">5</th>
-						<td>Phan Văn Bằng</td>
-						<td>Thu ngân</td>
-						<td>Nam</td>
-						<td>Thừa Thiên Huế</td>
-						<td>0987654321</td>
-						<td>pvbangRM001</td>
+						<td>Thịt</td>
+						<td>50</td>
+						<!-- <td>19h - 22h</td> -->
 						<td>
 							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
 							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
 							<a href="" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger btn-rounded">Xóa</a>
 						</td>
 					</tr>
+
+					<tr>
+						<th scope="row">6</th>
+						<td>Phô mai</td>
+						<td>75</td>
+						<!-- <td>19h - 22h</td> -->
+						<td>
+							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
+							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
+							<a href="" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger btn-rounded">Xóa</a>
+						</td>
+					</tr>
+					
+					<tr>
+						<th scope="row">7</th>
+						<td>Ớt</td>
+						<td>250</td>
+						<!-- <td>19h - 22h</td> -->
+						<td>
+							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
+							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
+							<a href="" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger btn-rounded">Xóa</a>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">8</th>
+						<td>Gia vị</td>
+						<td>150</td>
+						<!-- <td>19h - 22h</td> -->
+						<td>
+							<a href="" type="button" class="btn btn-success btn-rounded" target="_blank">Xem</a>
+							<a href="" type="button" class="btn btn-warning btn-rounded">Sửa</a>
+							<a href="" onclick="return confirm('Bạn có thật sự muốn xóa ?');" type="button" class="btn btn-danger btn-rounded">Xóa</a>
+						</td>
+					</tr>
+
 				</tbody>
 			</table>
 
@@ -111,25 +129,7 @@
 <div class="card shadow">
 	<div class="card-header"><h5 class="card-title" style="margin-top: 10px">Tùy chỉnh:</h5></div>
 	<div class="card-body">
-		<div class="row">
-			<div class="col-12">
-				<button type="button" class="btn btn-info">Thêm nhân viên</button>
-			</div>
-			<br><br>
-			<div class="col-12">
-				<button class="btn btn-info dropdown-toggle" type="button" id="MonAn"  data-mdb-toggle="dropdown"  aria-expanded="false">Các chức vụ</button>
-				<ul class="dropdown-menu" aria-labelledby="MonAn">
-					<li><a class="dropdown-item" href="#">Admin</a></li>
-					<li><a class="dropdown-item" href="#">Phục vụ</a></li>
-					<li><a class="dropdown-item" href="#">Đầu bếp</a></li>
-					<li><a class="dropdown-item" href="#">Thu ngân</a></li>
-				</ul>
-				&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
-				<button type="button" class="btn btn-primary btn-rounded">Thêm</button>
-				<button type="button" class="btn btn-warning btn-rounded">Sửa</button>
-				<button type="button" class="btn btn-danger btn-rounded">Xóa</button>
-			</div>
-		</div>
+		<a href="?mod=ban&act=add" type="button" class="btn btn-info">Thêm nguyên liệu</a>
 	</div>
 </div>
 
