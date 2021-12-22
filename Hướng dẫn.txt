@@ -2,5 +2,15 @@ Bro bình tĩnh cứ làm theo hướng dẫn là ok =)))
 
 1. Tạo database có tên: restaurantmanager
 2. Mở Terminal của Visual Studio Code.
-3. Gõ lệnh: php artisan migrate
-		php artisan migrate:fresh
+3. Gõ lệnh: 
+	cp .env.example .env
+	composer install
+	npm install
+	npm run dev
+	php artisan migrate:fresh --seed
+	php artisan key:generate
+	php artisan serve
+
+p/s: nếu cái nào không được thì thêm --ignore-platform-reqs vào sau.
+ví dụ: composer install không được thì composer update , không được nữa thì composer install --ignore-platform-reqs , không được nữa thì composer update --ignore-platform-reqs , còn không nữa thì còn biện pháp cuối cùng :))) m chưa cài composer phải không :v? cài đi :v
+p/s: npm không được thì cũng như trên, nếu tất cả biện pháp đều éo thì chắc m chưa cài nodejs :)))))

@@ -19,6 +19,8 @@
 <!-- <p>php artisan storage:link</p> -->
 <p>php artisan serve</p>
 
+<!-- --ignore-platform-reqs -->
+
 #### Pull:
 <p>composer install</p>
 <p>php artisan migrate</p>

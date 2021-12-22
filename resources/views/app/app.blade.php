@@ -162,7 +162,7 @@
                         <p><i class="fas fa-home me-3"></i> Thừa Thiên - Huế, Việt Nam</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
-                            restaurantmanagersp@gmail.com
+                            restaurantsp@gmail.com
                         </p>
                         <p><i class="fas fa-phone me-3"></i> +84 964196652</p>
                         <p><i class="fas fa-headset me-3"></i> +84 358831047</p><br>
