@@ -4,9 +4,10 @@
 ```bash
 cp .env.example .env
 create database: restaurantmanager  # utf8_unicode_ci
-composer install 	
+composer install 		
+# or: composer install --ignore-platform-reqs
 # or: composer update 
-# or: composer install --ignore-platform-reqs 
+# or: composer update --ignore-platform-reqs 
 npm install
 npm run dev
 php artisan migrate:fresh --seed
