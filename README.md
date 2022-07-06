@@ -1,33 +1,20 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## RESTAURANT MANAGER (Website Laravel)
 
-## RESTAURANT MANAGER (Website PHP use Laravel 8.6)
+### Install: (Run in Terminal)
+```bash
+cp .env.example .env
+create database: restaurantmanager  # utf8_unicode_ci
+composer install 	
+# or: composer update 
+# or: composer install --ignore-platform-reqs 
+npm install
+npm run dev
+php artisan migrate:fresh --seed
+php artisan key:generate
+php artisan serve
+```
 
-### Đồ án cơ sở 2
-
-<p>Hành trình chạy deadline của Bằng và Uy được lưu trữ ở đây :v</p>
-
-### Cách chạy chương trình
-
-#### Clone:
-<p>cp .env.example .env</p>
-<p>composer install</p>
-<p>npm install</p>
-<p>npm run dev</p>
-<p>php artisan migrate:fresh</p>
-<p>php artisan key:generate</p>
-<p>php artisan db:seed</p>
-<!-- <p>php artisan storage:link</p> -->
-<p>php artisan serve</p>
-
-<!-- --ignore-platform-reqs -->
-
-#### Pull:
-<p>composer install</p>
-<p>php artisan migrate</p>
-<p>php artisan serve</p>
-
-
-### Đồng sáng tạo:
-<p>PHAN VĂN BẰNG</p>
-<p>TRẦN NGUYỄN VĨNH UY</p>
-<p>2021</p>
+## Dev: Phan Văn Bằng - Trần Nguyễn Vĩnh Uy
+###### Facebook: fb.com/it0902
+###### Github: github.com/ilyouu
+###### Email: pvbang23092002@gmail.com
