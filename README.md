@@ -18,9 +18,10 @@ php artisan serve
 
 ### Example Account Restaurant:
 ```bash
-# User name:
+# username:
 bang
-# Password:
+
+# password:
 123456789
 ```
 
